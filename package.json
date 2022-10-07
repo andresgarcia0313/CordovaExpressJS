@@ -1,0 +1,25 @@
+{
+  "name": "app",
+  "displayName": "App",
+  "version": "1.0.0",
+  "description": "Application",
+  "main": "program.js",
+  "scripts": {
+    "start": "node program.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "cordova-browser": "^6.0.0"
+  },
+  "cordova": {
+    "platforms": [
+      "browser"
+    ]
+  }
+}
